@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title> 主页</title>
+    <title> 主  页 </title>
   </head>
   <body>
   第一个 java web 页
