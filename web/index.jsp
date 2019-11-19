@@ -8,13 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>第一个java web 页</title>
+    <title> 主页</title>
   </head>
   <body>
-  第一个java web 页
+  第一个 java web 页
 
   <p>
-  <a href="FindUserList"> 用户列表 </a>
+    <a href="FindUserList"> 用户列表 </a>
   </p>
   </body>
 </html>
