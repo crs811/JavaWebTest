@@ -34,9 +34,9 @@ public class LoginServlet extends HttpServlet {
 
         if (ud.login(name, pwd)) {
             request.setAttribute("CrsWeb", "welcome "+name);
-            request.getRequestDispatcher("/success.jsp").forward(request, response);
+            request.getRequestDispatcher("/index.jsp").forward(request, response);
         } else {
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("fail.jsp");
         }
     }
 
